@@ -1,0 +1,21 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.board {
+  padding: 10px;
+}
+
+.square {
+  padding: 10px;
+  margin: 5px;
+}
